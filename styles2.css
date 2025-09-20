@@ -50,3 +50,36 @@ body {
   max-width: 100%;
   border-radius: 10px;
 }
+.examples {
+  padding: 40px;
+  background: #f7f7f7;
+}
+
+.examples h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.food-card {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.food-card img {
+  width: 200px;
+  object-fit: cover;
+}
+
+.food-info {
+  padding: 20px;
+  flex: 1;
+}
+
+.food-info h3 {
+  margin-top: 0;
+}
