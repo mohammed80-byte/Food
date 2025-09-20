@@ -1,1 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 8px 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
 
