@@ -62,3 +62,19 @@ header nav a {
     width: 300px;
     border-radius: 15px;
 }
+.descriptions {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.descriptions .desc {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.descriptions .desc img {
+    width: 80px;
+}
