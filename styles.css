@@ -78,3 +78,35 @@ header nav a {
 .descriptions .desc img {
     width: 80px;
 }
+.reviews {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.review-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.review img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+}
