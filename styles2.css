@@ -29,3 +29,24 @@ body {
   font-size: 3rem;
   text-align: center;
 }
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  background: #fff;
+}
+
+.intro-text {
+  flex: 1 1 55%;
+  padding: 20px;
+}
+
+.intro-image {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.intro-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
